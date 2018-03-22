@@ -1,0 +1,27 @@
+* 문자열 함수 (2일차에 했었지만 3일차에 복습하는 듯 하다.)
+
+- count = 찾는 문자의 수를 반환 ex) a = "h4lo gentle guy" , a.count('g') => 2
+- index = 찾는 문자의 인덱스값을 반환 (찾지 못했을 경우에는 에러를 뿜는다.) ex) a = "h4lo", a.index('l') => 2 // a.index('k') => Error
+- find = 찾는 문자의 인데스값을 반환 (찾지 못했을 경우에는 -1을 반환한다.) ex) a = "h4lo", a.find('4') => 1 // a.find('Q') => -1
+- join = 문자열 사이사이에 파라미터값을 삽입 ex) a = "h4lo", a.join(' ') => h 4 l o
+- upper = 문자열을 모두 대문자로 변환 ex) a = "h4lo" , a.upper() => H4LO
+- lower = 문자열을 모두 소문자로 변환 ex) a = "LOWER STRING" , a.lower() => lower string
+- replace = replace 함수의 첫 번째 인자값을 찾아 두 번째 인자값으로 변환 ex) a = "I really hate you", a.replace("hate", "respect") => I really respect you
+- split = split 함수에 들어간 인자값을 기준으로 문자열을 잘라 리스트로 변환 (split 함수에 아무 인자값을 넣지 않으면 자동으로 공백을 기준으로 구분한다.) ex) a = "hello@world", a.split('@') => ['hello', 'world']
+- lstrip = 문자열 중 가장 왼쪽에 있는 한 개 이상의 공백을 제거 ex) a = "  Blank  ", a.lstrip() => "Blank  "
+- rstrip = 문자열 중 가장 오른쪽에 있는 한 개 이상의 공백을 제거 ex) a = "  Blank  ", a.rstrip() => "  Blank"
+- strip = 문자열의 양쪽 끝에 존재하는 모든 공백을 제거 ex) a = " w e l l d o n e ", a.strip() => "w e l l d o n e"
+
+* 내장 함수
+- type = 변수의 자료형을 확인하기 위해 사용되는 함수 ex) a = 3.14, print(type(a)) => <class 'float'>
+- int = 문자열 형태의 정수 또는 실수를 정수 형태로 반환할 때 사용하는 함수 (int 함수의 인자값이 정수이면 그대로 반환한다.) ex) a = 3.14, int(a) => 3
+- str = 파라미터 값을 문자열로 객체를 변환해주는 함수 ex) a = 369.369, str(a) => "369.369"
+- ord = 인자 값으로 들어간 문자의 아스키코드값을 반환하는 함수 ex) a = 'a', ord(a) => 97
+- chr = 인자 값으로 들어간 아스키코드값을 변환하여 해당하는 값을 반환하는 함수 ex) chr(97) => 'a'
+
+* 꼼수 타임
+
+a = [1, 'hello', 123, 'world']
+print(a[0:4])
+print(str(a)[1:-1]) # 대괄호를 뺀 결과가 출력된다.
+print(str(a[2:4])[1:-1])

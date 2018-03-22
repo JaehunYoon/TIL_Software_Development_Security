@@ -1,0 +1,17 @@
+* Sublime Text 3
+
+한 줄 복사 => Ctrl + Shift + D
+주석 처리 단축 키 => Ctrl + /
+
+python에서는 주석을 #로 사용
+
+------
+
+2017. 3. 6.
+1. 파이썬 설치
+2. Sublime Text 3 설치
+3. print("Hello World")
+4. powershell => Shift + 마우스 오른쪽
+5. 주석처리 단축키 => Ctrl + /
+6. Sublime Text 3 단축키
+7. 이전 명령 재실행 (cmd 창에서 ↑ 키 누르면 됨)
