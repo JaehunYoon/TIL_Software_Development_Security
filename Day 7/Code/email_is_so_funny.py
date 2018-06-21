@@ -9,6 +9,8 @@ SMTP_PORT = 465
 SMTP_USER = input("Gmail ID : ")
 SMTP_PASSWORD = input("Gmail PW : ")
 
+print("\n" * 100)
+
 def send_mail(name, addr):
     try:
         msg = MIMEMultipart()
@@ -41,4 +43,6 @@ def send_mail(name, addr):
 
 get_name = input("받는 사람의 이름을 입력해주세요 : ")
 get_email = input("받는 사람의 이메일 주소를 입력해주세요 : ")
-send_mail(get_name, get_email)
+
+for i in range(486):
+    send_mail(get_name, get_email)
