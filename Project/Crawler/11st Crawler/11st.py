@@ -33,7 +33,7 @@ try:
         # 구분선
         es.append([title.text])
         # 엑셀 파일에 title 문자열을 추가
-    ex.save('20413_십일번가.xlsx')
+    ex.save('20413_지정.xlsx')
     # 엑셀 파일을 소스코드와 같은 디렉토리에 저장
 
 except Exception as e:
