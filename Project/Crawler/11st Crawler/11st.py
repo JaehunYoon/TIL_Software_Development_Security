@@ -27,7 +27,7 @@ try:
     for h in hotclick_list:
         title = h.find_element_by_class_name('info_tit')
         # 각 리스트 당 info_tit 클래스 부분을 따옴
-        print(title.text)
+        print(type(title))
         # a 태그 사이의 문자열을 출력
         print('-' * 20)
         # 구분선
