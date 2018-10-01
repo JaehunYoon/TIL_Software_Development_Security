@@ -36,7 +36,7 @@ def send_mail(name, addr):
 
         print("\n 메일이 전송되었습니다. \n")
 
-    except Exception as e:
+    except Exception:
         print("\n 이메일을 발송하는 데에 오류가 발생했습니다. \n")
     smtp.close()
 

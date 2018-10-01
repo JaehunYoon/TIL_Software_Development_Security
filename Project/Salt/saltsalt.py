@@ -78,6 +78,6 @@ while True:  # 정상적으로 select를 입력받고 함수가 실행될 때까
         else:  # 1 또는 2를 제외한 다른 정수를 입력했을 경우 예외 처리
             clear()
             print("잘못된 값입니다.")
-    except Exception as e:  # 예외 처리
+    except Exception:  # 예외 처리
         clear()
         print("잘못된 값입니다.")
