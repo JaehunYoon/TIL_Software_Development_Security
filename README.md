@@ -1,4 +1,6 @@
 # TIL_Software_Development_Security
 
-´ë´ö¼ÒÇÁÆ®¿ş¾î¸¶ÀÌ½ºÅÍ°íµîÇĞ±³ **¼ÒÇÁÆ®¿ş¾î °³¹ß º¸¾È** ¼ö¾÷ ³»¿ëÀ» Á¤¸®Çß½À´Ï´Ù.</br>
-~~¸Å¿ì °¡µ¶¼ºÀÌ ¶³¾îÁö¹Ç·Î ÃßÈÄ¿¡ ¼öÁ¤ÇÏµµ·Ï ÇÏ°Ú½À´Ï´Ù.~~
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d3f838a6f894a8eb0ae12314686ab6f)](https://app.codacy.com/app/JaehunYoon/TIL_Software_Development_Security?utm_source=github.com&utm_medium=referral&utm_content=JaehunYoon/TIL_Software_Development_Security&utm_campaign=Badge_Grade_Dashboard)
+
+ëŒ€ë•ì†Œí”„íŠ¸ì›¨ì–´ë§ˆì´ìŠ¤í„°ê³ ë“±í•™êµ **ì†Œí”„íŠ¸ì›¨ì–´ ê°œë°œ ë³´ì•ˆ** ìˆ˜ì—… ë‚´ìš©ì„ ì •ë¦¬í–ˆìŠµë‹ˆë‹¤.</br>
+~~ë§¤ìš° ê°€ë…ì„±ì´ ë–¨ì–´ì§€ë¯€ë¡œ ì¶”í›„ì— ìˆ˜ì •í•˜ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤.~~
