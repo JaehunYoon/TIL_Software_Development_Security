@@ -1,5 +1,6 @@
 # function that no return value
 
+
 def func1(*a):  # *a = 가변인자
     print(a * 3)
 
@@ -9,10 +10,11 @@ func1('y', 's', 'w')
 
 # function that return value
 
+
 def sum(a, b):
     return a+b
 
-a,b = map(int, input().split())
+a, b = map(int, input().split())
 res = sum(a, b)
 print(res)
 

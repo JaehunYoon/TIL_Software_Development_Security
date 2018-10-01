@@ -23,7 +23,7 @@ try:
         news_title = news.find_element_by_class_name('_sp_each_title')
         print(news_title.text)
         es.append([news_title.text])  # append / 대괄호 사용
-    
+
     ex.save('test.xlsx')
 except Exception as e:
     print(e)

@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from openpyxl import Workbook
 
 driver = webdriver.Chrome('chromedriver')

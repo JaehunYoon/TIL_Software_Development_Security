@@ -6,7 +6,7 @@ while True:
             break
         else:
             print("This is not one..")
-    except:
+    except Exception as e:
         print("This is not one..")
 
 # while True:

@@ -8,8 +8,8 @@ SMTP_PORT = 465
 SMTP_USER = 'goodasd123@gmail.com'
 SMTP_PASSWORD = '<pw>'
 
-class Email():
 
+class Email():
     def send_mail(self, name, addr):
         msg = MIMEMultipart()
 
@@ -21,7 +21,7 @@ class Email():
         개구리 올챙이 팔딱팔딱 첨벙첨벙'''
 
         # msg['text'] = contents
-        text = MIMEText(_text = contents, _charset = 'utf-8')
+        text = MIMEText(_text=contents, _charset='utf-8')
         msg.attach(text)
 
         # SMTP로 접속할 서버 정보를 가진 클래스 변수를 생성한다.
