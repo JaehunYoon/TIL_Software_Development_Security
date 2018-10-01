@@ -12,7 +12,7 @@ def knudsen():  # 크누센의 실험식을 이용한 염분 계산
                 if check_permillage(salt):  # 염분이 천분율 범위에 속할 경우 조건문 수행
                     print("염소 이온이 {}일 때, 염분 값은 {}‰ 입니다.".format(Cl, salt))
                     return  # 출력 수행 후 프로그램 종료
-        except:  # 오류 예외 처리
+        except Exception:  # 오류 예외 처리
             print("잘못된 값입니다.")
 
 
@@ -31,7 +31,7 @@ def regular():  # 표준화된 염분 계산식을 이용한 염분 계산
                 if check_permillage(salt):  # 염분이 천분율 범위에 속할 경우 조건문 수행
                     print(f"염류가 {SA}g, 해수가 {sea}g 일때, 염분 값은 {salt}‰ 입니다.")
                     return  # 출력 수행 후 프로그램 종료
-        except Exception as e:  # 예외 처리
+        except Exception:  # 예외 처리
             clear()  # 화면 초기화
             if sea == 0:  # 분모가 0이 될 수 없으므로 예외 처리
                 print("해수의 양은 0보다 커야 합니다.")
